@@ -63,6 +63,8 @@ Use the aggregate function to accomplish this. Drop the third and fourth columns
 	colnames(average)[2] <- "Activity"
 	final<-subset(average,select=-c(3,4))
 
+Export FINAL dataset as a txt file. 
 
+	write.table(final, "q5TidyDataset.txt",row.name=FALSE)
 
 
