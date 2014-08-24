@@ -2,7 +2,9 @@ Getting-and-Cleaning-Data-Project-1
 ===================================
 Date: 8/24/2014
 
-Objective: Create two tidy datasets: (1) Mean and standard deviation measurements for subjects and their respective activity based on the test and train datasets, and (2) average of each variable for each activity and each subject, both from the Human Activity Recognition Using Smartphones Dataset. 
+Objective: Create two tidy datasets: (1) Mean and standard deviation measurements for subjects and their respective activity based on the test and train datasets, and (2) average of each variable for each activity and each subject, both from the Human Activity Recognition Using Smartphones Dataset.
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were recorded. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
 Dataset 1: Mean and standard deviation for each measurement for each subject and their activity.  
 
