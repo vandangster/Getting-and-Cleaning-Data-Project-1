@@ -42,3 +42,6 @@ average<-aggregate(combined, by = list(combined$Subject, combined$Activity), FUN
 colnames(average)[1] <- "Subject"
 colnames(average)[2] <- "Activity"
 final<-subset(average,select=-c(3,4))
+
+# Export final dataset.
+write.table(final, "q5TidyDataset.txt",row.name=FALSE)
